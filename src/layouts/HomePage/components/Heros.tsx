@@ -1,4 +1,4 @@
-export const Heros = () => {
+export const Heros = () => { /* READ! */
     return (
         <div>
             <div className='d-none d-lg-block'>
@@ -38,7 +38,7 @@ export const Heros = () => {
                 </div>
             </div>
 
-            {/* Mobile Heros */} /* STOP READ HERE! */
+            {/* Mobile Heros */}
             <div className='d-lg-none'>
                 <div className='container'>
                     <div className='m-2'>
@@ -47,7 +47,7 @@ export const Heros = () => {
                             <h1>What have you been reading?</h1>
                             <p className='lead'>
                                 The library team would love to know what you have been reading.
-                                Whether it is to learn a new skill or grow within one,]
+                                Whether it is to learn a new skill or grow within one,
                                 we will be able to provide the top content for you!
                             </p>
                             <a className='btn main-color btn-lg text-white' href='#'>Sign up</a>
